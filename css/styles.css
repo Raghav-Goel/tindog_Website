@@ -1,0 +1,132 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family:montserrat;
+}
+h1{
+    font-size:3.5rem;
+    font-family:montserrat;
+    font-weight:900;
+    line-height: 1.5;
+    color:white;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.iphone{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+    font-family: montserrat;
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0
+}
+/* features */
+.h31{
+    font-family:  montserrat;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.p1{
+    color:#8f8f8f;
+    padding-bottom:4.5%;
+}
+.feature-font{
+    font-size: 5rem;
+    color: #ef8172;
+    margin-bottom: 5%;
+    padding:5%;
+}
+.feature-font:hover{
+    color:#ff4c68;
+}
+.feature{
+    text-align: center;
+}
+#features{
+    padding:7% 15%;
+    background-color:#fff;
+    position:relative;
+    z-index:1;
+}
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+}
+.h21{color:#fff;
+    font-family:  montserrat;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height:1.5;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width:15%;
+    margin:20px 30px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+}
+.h32{
+    font-family: montserrat;
+    font-weight: 900;
+    font-size:3.5rem;
+    color:#fff;
+    width:90%;
+}
+/* footer */
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+.social-icon{
+    padding:20px 10px;
+}
+
+@media (max-width:1090px){
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        position: static;
+        transform:rotate(0);
+    }
+}
